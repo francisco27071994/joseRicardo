@@ -7,9 +7,13 @@
     padding: 0;
 }
 
+body {
+    background-image: url("../assets/fundo.jpg");
+}
+
 #cabecalho {
     height:250px;
-    background-image: url(../assets/12%20Fabric.jpg);
+    background-image: url("../assets/12%20Fabric.jpg");
 }
 
 #cabecalho img {
@@ -54,4 +58,16 @@
     background-color: rgba(0,0,0,.3);
     border-radius:30px;
     box-shadow: 1px 1px 5px rgba(0,0,0,.3);
+}
+
+#corpo {
+    position:absolute;
+    top:180px;
+    border:1px solid #fff;
+    width:1100px;
+    height:500px;
+    float:left;
+    left:140px;
+    background-color:#fff;
+    border-radius:20px;
 }
