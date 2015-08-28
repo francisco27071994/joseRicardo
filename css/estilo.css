@@ -1,30 +1,35 @@
 @charset "UTF-8";
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700);
 
 *{
     margin: 0;
     padding: 0;
 }
 
+#cabecalho {
+    height:250px;
+    background-image: url(../assets/12%20Fabric.jpg);
+}
+
 #cabecalho img {
     float:left;
     position: relative;
-    left:150px;
+    left:170px;
     top:30px;
 }
 
 #cabecalho h1 {
     float:left;
     position:relative;
-    left:160px;
+    left:180px;
     top:50px;
 }
 
 #menu {
     float:right;
     position:relative;
-    right:150px;
+    right:170px;
     top:50px;
 }
 
@@ -40,9 +45,9 @@
 
 #menu ul li a{
     text-decoration: none;
-    color: #000;
-    font-size:14pt;
-    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size:12pt;
+    font-family: 'Montserrat', sans-serif;
 }
 
 #menu ul li:hover {
