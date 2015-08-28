@@ -62,7 +62,7 @@ body {
 
 #corpo {
     position:absolute;
-    top:180px;
+    top:150px;
     border:1px solid #fff;
     width:1100px;
     height:500px;
@@ -70,4 +70,16 @@ body {
     left:140px;
     background-color:#fff;
     border-radius:20px;
+}
+
+#linha {
+    border:2px solid blue;
+    position:relative;
+    top:300px;
+}
+
+#corpo h2 {
+    position:relative;
+    top:300px;
+    left:30px;
 }
